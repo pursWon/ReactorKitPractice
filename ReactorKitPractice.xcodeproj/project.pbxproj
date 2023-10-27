@@ -9,25 +9,30 @@
 /* Begin PBXBuildFile section */
 		D0D1AF9B2AE39763000877C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D1AF9A2AE39763000877C7 /* AppDelegate.swift */; };
 		D0D1AF9D2AE39763000877C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D1AF9C2AE39763000877C7 /* SceneDelegate.swift */; };
-		D0D1AFA22AE39763000877C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D1AFA02AE39763000877C7 /* Main.storyboard */; };
 		D0D1AFA42AE39764000877C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D1AFA32AE39764000877C7 /* Assets.xcassets */; };
 		D0D1AFA72AE39764000877C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D1AFA52AE39764000877C7 /* LaunchScreen.storyboard */; };
-		D0D1AFAF2AE397E1000877C7 /* CounterViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D1AFAE2AE397E1000877C7 /* CounterViewReactor.swift */; };
+		D0D1AFAF2AE397E1000877C7 /* MyReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D1AFAE2AE397E1000877C7 /* MyReactor.swift */; };
 		D0D1AFB12AE397EB000877C7 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D1AFB02AE397EB000877C7 /* CounterViewController.swift */; };
 		D0D1AFB42AE3990D000877C7 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = D0D1AFB32AE3990D000877C7 /* ReactorKit */; };
 		D0D1AFB72AE399AF000877C7 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D0D1AFB62AE399AF000877C7 /* RxCocoa */; };
+		D0D1AFBA2AEA4774000877C7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D0D1AFB92AEA4774000877C7 /* SnapKit */; };
+		D0D1AFBC2AEA4E3E000877C7 /* BeerImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D1AFBB2AEA4E3E000877C7 /* BeerImageViewController.swift */; };
+		D0D1AFBF2AEA4EA3000877C7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D0D1AFBE2AEA4EA3000877C7 /* Alamofire */; };
+		D0D1AFC12AEA4EC7000877C7 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D1AFC02AEA4EC7000877C7 /* Beer.swift */; };
+		D0D1AFC42AEA5934000877C7 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D0D1AFC32AEA5934000877C7 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D0D1AF972AE39763000877C7 /* ReactorKitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactorKitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D1AF9A2AE39763000877C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0D1AF9C2AE39763000877C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0D1AFA12AE39763000877C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0D1AFA32AE39764000877C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0D1AFA62AE39764000877C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0D1AFA82AE39764000877C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0D1AFAE2AE397E1000877C7 /* CounterViewReactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterViewReactor.swift; sourceTree = "<group>"; };
+		D0D1AFAE2AE397E1000877C7 /* MyReactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyReactor.swift; sourceTree = "<group>"; };
 		D0D1AFB02AE397EB000877C7 /* CounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
+		D0D1AFBB2AEA4E3E000877C7 /* BeerImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerImageViewController.swift; sourceTree = "<group>"; };
+		D0D1AFC02AEA4EC7000877C7 /* Beer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,8 +40,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D1AFBA2AEA4774000877C7 /* SnapKit in Frameworks */,
+				D0D1AFBF2AEA4EA3000877C7 /* Alamofire in Frameworks */,
 				D0D1AFB72AE399AF000877C7 /* RxCocoa in Frameworks */,
 				D0D1AFB42AE3990D000877C7 /* ReactorKit in Frameworks */,
+				D0D1AFC42AEA5934000877C7 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,16 +70,41 @@
 		D0D1AF992AE39763000877C7 /* ReactorKitPractice */ = {
 			isa = PBXGroup;
 			children = (
-				D0D1AF9A2AE39763000877C7 /* AppDelegate.swift */,
-				D0D1AF9C2AE39763000877C7 /* SceneDelegate.swift */,
-				D0D1AFB02AE397EB000877C7 /* CounterViewController.swift */,
-				D0D1AFAE2AE397E1000877C7 /* CounterViewReactor.swift */,
-				D0D1AFA02AE39763000877C7 /* Main.storyboard */,
+				D0D1AFC92AEA6C73000877C7 /* Delegate */,
+				D0D1AFC52AEA5C48000877C7 /* ViewController */,
+				D0D1AFC62AEA5C56000877C7 /* Reactor */,
+				D0D1AFC02AEA4EC7000877C7 /* Beer.swift */,
 				D0D1AFA32AE39764000877C7 /* Assets.xcassets */,
 				D0D1AFA52AE39764000877C7 /* LaunchScreen.storyboard */,
 				D0D1AFA82AE39764000877C7 /* Info.plist */,
 			);
 			path = ReactorKitPractice;
+			sourceTree = "<group>";
+		};
+		D0D1AFC52AEA5C48000877C7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D0D1AFB02AE397EB000877C7 /* CounterViewController.swift */,
+				D0D1AFBB2AEA4E3E000877C7 /* BeerImageViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D0D1AFC62AEA5C56000877C7 /* Reactor */ = {
+			isa = PBXGroup;
+			children = (
+				D0D1AFAE2AE397E1000877C7 /* MyReactor.swift */,
+			);
+			path = Reactor;
+			sourceTree = "<group>";
+		};
+		D0D1AFC92AEA6C73000877C7 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				D0D1AF9A2AE39763000877C7 /* AppDelegate.swift */,
+				D0D1AF9C2AE39763000877C7 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +126,9 @@
 			packageProductDependencies = (
 				D0D1AFB32AE3990D000877C7 /* ReactorKit */,
 				D0D1AFB62AE399AF000877C7 /* RxCocoa */,
+				D0D1AFB92AEA4774000877C7 /* SnapKit */,
+				D0D1AFBE2AEA4EA3000877C7 /* Alamofire */,
+				D0D1AFC32AEA5934000877C7 /* Kingfisher */,
 			);
 			productName = ReactorKitPractice;
 			productReference = D0D1AF972AE39763000877C7 /* ReactorKitPractice.app */;
@@ -125,6 +161,9 @@
 			packageReferences = (
 				D0D1AFB22AE3990D000877C7 /* XCRemoteSwiftPackageReference "ReactorKit" */,
 				D0D1AFB52AE399AF000877C7 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				D0D1AFB82AEA4774000877C7 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D0D1AFBD2AEA4EA3000877C7 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D0D1AFC22AEA5934000877C7 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = D0D1AF982AE39763000877C7 /* Products */;
 			projectDirPath = "";
@@ -142,7 +181,6 @@
 			files = (
 				D0D1AFA72AE39764000877C7 /* LaunchScreen.storyboard in Resources */,
 				D0D1AFA42AE39764000877C7 /* Assets.xcassets in Resources */,
-				D0D1AFA22AE39763000877C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,8 +192,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0D1AFB12AE397EB000877C7 /* CounterViewController.swift in Sources */,
+				D0D1AFC12AEA4EC7000877C7 /* Beer.swift in Sources */,
 				D0D1AF9B2AE39763000877C7 /* AppDelegate.swift in Sources */,
-				D0D1AFAF2AE397E1000877C7 /* CounterViewReactor.swift in Sources */,
+				D0D1AFBC2AEA4E3E000877C7 /* BeerImageViewController.swift in Sources */,
+				D0D1AFAF2AE397E1000877C7 /* MyReactor.swift in Sources */,
 				D0D1AF9D2AE39763000877C7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,14 +203,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D0D1AFA02AE39763000877C7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0D1AFA12AE39763000877C7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D0D1AFA52AE39764000877C7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -308,7 +340,7 @@
 				INFOPLIST_FILE = ReactorKitPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,7 +368,7 @@
 				INFOPLIST_FILE = ReactorKitPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -392,6 +424,30 @@
 				kind = branch;
 			};
 		};
+		D0D1AFB82AEA4774000877C7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		D0D1AFBD2AEA4EA3000877C7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		D0D1AFC22AEA5934000877C7 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -404,6 +460,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D0D1AFB52AE399AF000877C7 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
+		};
+		D0D1AFB92AEA4774000877C7 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0D1AFB82AEA4774000877C7 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D0D1AFBE2AEA4EA3000877C7 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0D1AFBD2AEA4EA3000877C7 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		D0D1AFC32AEA5934000877C7 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0D1AFC22AEA5934000877C7 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
