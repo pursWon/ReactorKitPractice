@@ -5,6 +5,7 @@ import Alamofire
 
 class MyReactor: Reactor {
     let initialState = State()
+    var myBeer: State = State()
     
     // View로부터 받을 Action을 enum으로 정의
     enum Action {
@@ -24,8 +25,7 @@ class MyReactor: Reactor {
     // 현재 상태를 기록하고 있으며, View에서 해당 정보를 사용하여 UI업데이트 및 Reactor에서 image를 얻어올때 page정보들을 저장
     struct State {
         var value = 0
-        var isLoading = false
-        var beer: Beer = Beer(name: "", imageURL: "")
+        var url: String = ""
     }
     
     // Action이 들어온 경우, 어떤 처리를 할것인지 Mutation에서 정의한 작업 단위들을 사용하여 Observable로 방출
@@ -51,15 +51,17 @@ class MyReactor: Reactor {
         switch mutation {
         case .increaseValue:
             newState.value += 1
+            return newState
         case .decreaseValue:
             newState.value -= 1
+            return newState
         case .loadData:
-            loadRandomBeerImage { myBeer in
-                newState.beer = myBeer
+            loadRandomBeerImage { beer in
+                self.myBeer.url = beer.imageURL
             }
+            
+            return self.myBeer
         }
-        
-        return newState
     }
     
     func loadRandomBeerImage(myBeer: @escaping (Beer) -> Void) {
