@@ -46,10 +46,15 @@ class CounterViewController: UIViewController, View {
         addViews()
         setBackGroundColor()
         moveButtonClicked()
-        
-        reactor?.loadRandomBeerImage(myBeer: { beer in
-            print(beer.imageURL)
-        })
+    }
+    
+    init(reactor: MyReactor) {
+        super.init(nibName: nil, bundle: nil)
+        self.reactor = reactor
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError()
     }
     
     func bind(reactor: MyReactor) {
@@ -132,7 +137,7 @@ class CounterViewController: UIViewController, View {
     }
     
     func moveButtonClicked() {
-        let beerImageVC = BeerImageViewController()
+        let beerImageVC = BeerImageViewController(reactor: MyReactor())
         moveButton.rx.tap.subscribe(onNext: { self.navigationController?.pushViewController(beerImageVC, animated: true) }).disposed(by: disposeBag)
     }
 }
