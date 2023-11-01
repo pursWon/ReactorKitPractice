@@ -52,7 +52,6 @@ class BeerImageViewController: UIViewController, View {
         [imageView, generateButton].forEach {
             view.addSubview($0)
         }
-        
         setLayout()
     }
     
